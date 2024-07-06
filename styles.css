@@ -38,6 +38,7 @@ body {
   height: 50px;
   border-radius: 50px;
   object-fit: cover;
+  transition: all 0.5s ease;
 }
 
 .social-icons a{
@@ -52,6 +53,7 @@ body {
   padding: 3px;
   border-radius: 70px;
   box-shadow: 1.5px 5px 0px 1px white;
+  transition: all 1s ease;
 }
 
 .link a {
@@ -60,7 +62,28 @@ body {
   text-align: center;
   flex-grow: 1;
   padding-right: 50px;
+  transition: all 1s ease;
 }
+/* 
+.link::hover {
+  height: 280px;
+}
+
+.link:hover .thumbnail {
+  width: 150px;
+  height: 150px;
+  position: absolute; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  transition: all 1s ease;
+  margin: 15px;
+  padding: 15px;
+}
+
+.link:hover a,
+.link:focus a {
+  padding-top: 150px; 
+} */
 
 .items {
   display: flex;
